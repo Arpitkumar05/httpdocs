@@ -1,0 +1,491 @@
+
+
+
+.logo {
+    width: 1450px;
+    margin-right: 0px;
+    margin-top: 30px;
+    
+}
+
+.header2-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.header2 h1 {
+    
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+.about {
+    margin-left: 70px;
+    font-size: larger;
+    color: black;
+}
+.content p {
+    width: 940px;
+    margin-right: 550px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+    margin-left: 70px;
+}
+
+.compatibility {
+    float : right;
+    margin-bottom: 10px;
+    background-color: #082040f5;
+    padding: 40px 50px;
+    width: 420px;
+    margin-right: 68px;
+    backface-visibility: hidden;
+}
+
+.compatibility h2 {
+    margin: 0 0 15 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+.compatibility ul {
+    padding: 0;
+    margin: 0;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.compatibility ul li {
+    margin: 4px 0;
+}
+
+
+.navbar2 {
+    position: sticky;
+    top: 0;
+    background-color: rgba(132, 209, 43, 0.853);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 2px -2px rgba(117, 119, 113, 0.863);
+    z-index: 1000;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link.active {
+    color: teal;
+    border-bottom: 2px solid teal;
+}
+
+.section1 {
+    height: 50vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section {
+    height: 65vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#product-details {
+    background-color: #e1e1e1;
+}
+
+.section1 h2 {
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 35px;
+}
+
+.section1 p{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-right: 35px;
+    color: #000;
+}
+
+.section h2 {
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 35px;
+}
+
+.section p{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 45px;
+    margin-right: 35px;
+    color: #000;
+}
+
+#features {
+    background-color: #f5f2f2;
+}
+.section ul {
+    list-style: square;
+    font-weight: 500;
+    padding-left: 80px;
+    margin-top: 15px;
+    color: #050505;
+}
+
+.section li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    position: relative; /* For pseudo-element positioning */
+    font-size: 15px;
+    color: #000;
+}
+
+.section li::before {
+    
+    
+    font-weight: bold; /* Ensure bullet is visible */
+    display: inline-block; 
+    width: 2em; /* Space for bullet */
+    margin-left: -1em; /* Position bullet */
+}
+
+#use-cases {
+    background-color: #e1e1e1;
+}
+
+#Technical-specifications {
+    background-color: #f1f4f1ea;
+}
+.section ol {
+    margin-top: 25px;
+    line-height: 0;
+    position: relative; /* For pseudo-element positioning */
+    font-size: 15px;
+    
+}
+.section ol::before{
+    content: '\2022';
+    color: #c00303;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width:900px) {
+    .logo {
+        width: 830px;
+        margin-right: 0px;
+        margin-top: 80px;   
+    }
+
+    .content {
+        width: 420px ;
+        margin-top: 0px;
+        
+        
+    }
+    .about {
+        font-size: medium;
+        width: 770px ;
+        color: black;
+        margin-left: 35px;
+    }
+    .content p {
+        margin-left: 10px;
+        width: 300px ;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    
+    .compatibility {
+        float : inline-end;
+        margin-right: 35px;
+        background-color: #082040f5;
+        padding: 25px 25px;
+        width: 720px;
+        
+    }
+    
+    .compatibility h2 {
+        margin: 0 0 19 0;
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    .compatibility ul {
+        padding: 0;
+        margin: 0;
+        margin-left: 25px;
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .compatibility ul li {
+        margin: 4px 0;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    .logo {
+        width: 430px;
+        margin-right: 0px;
+        margin-top: 80px;   
+    }
+
+    .content {
+        width: 420px ;
+        margin-top: 0px;
+        
+        
+    }
+    .about {
+        font-size: medium;
+        width: 420px ;
+        color: black;
+        margin-left: 25px;
+    }
+    .content p {
+        margin-left: 10px;
+        width: 400px ;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    
+    .compatibility {
+        float : inline-end;
+        margin-right: 10px;
+        background-color: #082040f5;
+        padding: 25px 25px;
+        width: 440px;
+        
+    }
+    
+    .compatibility h2 {
+        margin: 0 0 19 0;
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    .compatibility ul {
+        padding: 0;
+        margin: 0;
+        margin-left: 25px;
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .compatibility ul li {
+        margin: 4px 0;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+        background-color: rgba(132, 209, 43, 0.853);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 2px -2px rgba(117, 119, 113, 0.863);
+        z-index: 1000;
+    }
+    .section1 {
+        
+        height: 125vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .section1 h2 {
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-right: 5px;
+    }
+    
+    .section1 p{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-right: 1px;
+        color: #000;
+    }
+
+    .section {
+        
+        height: 125vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .section h2 {
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-right: 5px;
+    }
+    
+    .section p{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-right: 1px;
+        color: #000;
+    }
+ 
+    .section ul {
+        list-style: square;
+        font-weight: 500;
+        text-align: -webkit-center;
+        display: contents;
+        margin-top: 25px;
+        color: #000;
+    }
+    
+    .section li {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        line-height: 1.6;
+        position: relative; /* For pseudo-element positioning */
+        font-size: 15px;
+        color: #000;
+    }
+    
+    .section li::before {
+         /* Unicode for bullet point */
+         /* Bullet color */
+        font-weight: bold; /* Ensure bullet is visible */
+        display: inline-block; 
+        width: 2em; /* Space for bullet */
+        margin-left: -1em; /* Position bullet */
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .logo {
+        width: 400px;
+        margin-right: 0px;
+        margin-top: 80px;   
+    }
+
+    .content {
+        width: 420px ;
+        margin-top: 0px;
+        
+        
+    }
+    .about {
+        font-size: medium;
+        width: 340px ;
+        color: black;
+        margin-left: 35px;
+    }
+
+    .content p {
+        margin-left: 10px;
+        width: 320px ;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    
+    
+    .compatibility {
+        float : inline-end;
+        margin-right: 20px;
+        background-color: #082040f5;
+        padding: 15px 15px;
+        width: 300px;
+        
+    }
+    
+    .compatibility h2 {
+        margin: 0 0 19 0;
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    .compatibility ul {
+        padding: 0;
+        margin: 0;
+        margin-left: 25px;
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .compatibility ul li {
+        margin: 4px 0;
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    .logo {
+        width: 400px;
+        margin-right: 0px;
+        margin-top: 80px;   
+    }
+
+    .content {
+        width: 400px ;
+        margin-top: 0px;
+        
+        
+    }
+    .about {
+        font-size: medium;
+        width: 340px ;
+        color: black;
+        margin-left: 35px;
+    }
+
+    .content p {
+        margin-left: 10px;
+        width: 320px ;
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    
+    
+    .compatibility {
+        float : inline-end;
+        margin-right: 20px;
+        background-color: #082040f5;
+        padding: 15px 15px;
+        width: 350px;
+        
+    }
+    
+    .compatibility h2 {
+        margin: 0 0 19 0;
+        font-size: 25px;
+        color: #fff;
+    }
+    
+    .compatibility ul {
+        padding: 0;
+        margin: 0;
+        margin-left: 25px;
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .compatibility ul li {
+        margin: 4px 0;
+    }
+
+}
+
